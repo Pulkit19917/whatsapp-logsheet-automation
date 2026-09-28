@@ -1,0 +1,96 @@
+{
+  "paths": {
+    "output_dir": "data/output",
+    "session_db": "data/session.sqlite3",
+    "site_names_file": "config/site_names.json",
+    "site_names_example_file": "config/site_names.example.json",
+    "group_overrides_file": "data/group_folder_overrides.json",
+    "site_group_folders_file": "data/site_group_folders.json",
+    "numbering_file": "data/site_numbering.json",
+
+    "master_file": "sample/Master_Sheet2.xlsm",
+    "folder_a": "data/Logsheet-All Site2"
+  },
+
+  "whatsapp": {
+    "only_these_groups": null
+  },
+
+  "backfill": {},
+
+  "text_capture": {
+    "keywords": [
+      "diesel"
+    ],
+    "fuzzy_threshold": 0.75
+  },
+
+  "ocr": {
+    "tesseract_path": null
+  },
+
+  "fonts": {
+    "regular_path": null,
+    "bold_path": null
+  },
+
+  "push_tab_a": {
+    "dry_run": false,
+    "master_sheet": "MASTER_LOG_SHEET_A",
+    "master_header_row": 1,
+    "max_header_search_rows": 25,
+    "max_date_search_rows": 70,
+    "max_block_width": 20,
+    "max_left_scan": 6,
+    "max_empty_streak": 300,
+
+    "skip_empty_values": false,
+    "date": null,
+    "repeat_prompt": true
+  },
+
+  "push_tab_b": {
+    "dry_run": false,
+    "master_sheet": "MASTER_LOG_SHEET_B",
+    "master_header_row": 1,
+    "max_header_search_rows": 25,
+    "max_date_search_rows": 70,
+    "max_block_width": 20,
+    "max_left_scan": 6,
+    "max_empty_streak": 300
+  },
+
+  "dashboard": {
+    "scan_subfolders": true,
+
+    "show_folder_info": true,
+    "show_system_info": true,
+    "show_folder_column": true,
+
+    "branding": {
+      "page_title": "Ekta Live Photo Monitoring",
+      "page_icon": "📊",
+      "company_name": "Ekta Heavylift Logistics Limited",
+      "tagline": "Operations • Fleet • Site Monitoring",
+      "logo_text": "EKTA",
+      "sidebar_title": "EKTA",
+      "sidebar_subtitle": "HEAVYLIFT LOGISTICS",
+      "dashboard_title": "WhatsApp Site Photo Monitoring Dashboard",
+      "dashboard_subtitle": "Monitor daily site photo submissions and pending groups from one central dashboard.",
+      "live_badge": "LIVE MONITORING",
+      "system_status": "Online"
+    },
+
+    "refresh": {
+      "enabled": true,
+      "default_seconds": 30,
+      "min_seconds": 10,
+      "max_seconds": 300,
+      "step_seconds": 10
+    },
+
+    "labels": {
+      "received_metric": "Photos Received"
+    }
+  }
+}
