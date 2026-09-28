@@ -1,6 +1,6 @@
 # Field Operations MIS & Automated FP&A Data Sync Engine
 
-> **A Client Case Study by [Your Firm Name] — MIS & FP&A Advisory Services**  
+> **A Client Case Study by Measurify — MIS & FP&A Advisory Services**  
 > *Engineering high-velocity data pipelines and real-time operational control centers for field-heavy businesses.*
 
 ---
@@ -11,7 +11,7 @@ When managing financial planning, analysis (FP&A), and Management Information Sy
 
 In a recent client engagement managing **55+ site locations**, handwritten field logbooks submitted via WhatsApp created significant operational blindspots. Standard AI/OCR extraction tools suffered high error rates due to smudged ink and poor lighting, risking vendor billing accuracy, fuel burn tracking, and unit economics reporting.
 
-Instead of proposing a costly enterprise software migration, our advisory team engineered a **custom, low-friction operational data pipeline** that bridges field updates, real-time web monitoring, and automated spreadsheet-based financial models[cite: 4, 5].
+Instead of proposing a costly enterprise software migration, our advisory team engineered a **custom, low-friction operational data pipeline** that bridges field updates, real-time web monitoring, and automated spreadsheet-based financial models.
 
 ---
 
