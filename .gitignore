@@ -1,0 +1,100 @@
+# =========================
+# data/ and output/ (real logsheets, WhatsApp session, photos)
+# Keep the folders themselves via an empty .gitkeep file
+# =========================
+data/*
+!data/.gitkeep
+output/*
+!output/.gitkeep
+
+# =========================
+# config/ (real site names, numbering, settings)
+# Only *.example.json files are committed
+# =========================
+config/*
+!config/*.example.json
+!config/README.md
+
+# =========================
+# Real Excel workbooks and tabular data
+# (exported VBA .frm/.frx/.bas/.cls files in excel/ ARE committed)
+# =========================
+*.xls
+*.xlsx
+*.xlsm
+*.xlsb
+*.csv
+merged.xlsx
+sample/Master_Sheet2.xlsm
+
+# =========================
+# Databases and WhatsApp/browser sessions
+# =========================
+*.sqlite
+*.sqlite3
+*.db
+whatsapp_session/
+chrome_profile/
+User Data/
+.wwebjs_auth/
+.wwebjs_cache/
+*.session
+
+# =========================
+# Photos and media (blocked everywhere, except README screenshots)
+# =========================
+*.jpg
+*.jpeg
+*.gif
+*.heic
+*.mp4
+*.pdf
+*.png
+!sample/screenshots/*.png
+!sample/screenshots/*.jpg
+
+# =========================
+# Secrets
+# =========================
+.env
+.env.*
+*.env
+*.token
+*.key
+*.pem
+secrets.*
+credentials.*
+.streamlit/secrets.toml
+
+# =========================
+# Logs and temp files
+# =========================
+*.log
+logs/
+*.tmp
+*.bak
+~$*
+.~lock.*
+.ipynb_checkpoints/
+
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+venv/
+.venv/
+env/
+
+# =========================
+# OS and editor files
+# =========================
+Thumbs.db
+desktop.ini
+.DS_Store
+.vscode/
+.idea/
