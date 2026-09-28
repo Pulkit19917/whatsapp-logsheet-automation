@@ -1,16 +1,16 @@
 @echo off
-title Rename Group A Headers
+title Updating Group B Sites
 
-echo ==========================================
-echo     Running rename_group_a_headers.py
-echo ==========================================
+echo ===================================================
+echo           Updating Group B Sites
+echo ===================================================
 echo.
 
-python "%~dp0PushB.py"
+python "C:\Users\Annu Sing\Documents\P\Project\python\PushB.py"
 
 echo.
-echo ==========================================
-echo          Python script completed
-echo ==========================================
+echo ===================================================
+echo     Python script completed
+echo ===================================================
 echo.
 pause
