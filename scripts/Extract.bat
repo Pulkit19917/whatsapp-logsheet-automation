@@ -1,12 +1,12 @@
 @echo off
-title Rename Group A Headers
+title Fetching Photos From WhatsApp
 
 echo ==========================================
 echo    Wa_site.py
 echo ==========================================
 echo.
 
-python "%~dp0wa_site_image_bot.py"
+python "C:\Users\Annu Sing\Documents\P\Project\python\wa_site_image_bot.py"
 
 echo.
 echo ==========================================
